@@ -64,17 +64,6 @@ public class OrderMainTest extends BaseUiTest{
         mainPage.scrollToFaq();
         mainPage.clickFaqSix();
     }
-    @Test
-    public void clickToFaqSeven () {
-        MainPage mainPage = new MainPage(webDriver);
-        mainPage.scrollToFaq();
-        mainPage.clickFaqSeven();
-    }
-    @Test
-    public void clickToFaqEight () {
-        MainPage mainPage = new MainPage(webDriver);
-        mainPage.scrollToFaq();
-        mainPage.clickFaqEight();
-    }
+
 
 }
